@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+   position:fixed;
+}
+.navbar img{
+    width: 30%;
+    font-family:axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;;
+}
+.navbar>div:nth-child(2){
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 30%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family:cursive;
+}
+.upper{
+    display: flex;
+    padding-top: 50px;
+}
+.upper img{
+    width: 50%;
+}
+.upper>div{
+    width: 83%;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+   padding: 100px 20px;
+}
+.upper>div>p{
+    color: grey;
+}
+.upper>div>p:nth-child(1){
+    letter-spacing: 2px;
+}
+.upper>div>p:nth-child(1){
+    font-size: large;
+}
+.upper>div>div{
+    background-color: aliceblue;
+    color: black;
+    width: 40%;
+    border-radius: 5px;
+    padding: 40px;
+}
+/*experiment*/
+
+/*  .upper>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1000%;
+    color: aliceblue;
+   padding-left: 50px;
+   background-color: black;
+   background-image: linear-gradient( to right ,transparent,black 40%); 
+.upper p{
+    color: burlywood;
+}
+.cityenter{
+    background-color: aliceblue;
+    color: black;
+    width: 30%;
+    padding: 10px;
+} */
+.middle{
+    display: flex;
+    
+    width: 90%;
+    margin: 50px auto;
+}
+.middle h1,.middle h3{
+    font-family: cursive;
+    
+}
+.middle>div>div>div>h3{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-weight: 450;
+}
+.middle>div>div>div>p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: rgb(134, 133, 133);
+}
+.middle p{
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+.middle>div>div{
+    display: flex;
+    padding: 10px;
+}
+.middle>div>div>img{
+    width: 13%;
+    height: 10%;
+    object-fit: fill;
+    padding: 5px;
+    margin-right: 15px;
+    
+}
+.middle>div:nth-child(2){
+    margin: 70px auto;
+    padding: 20px;
+    text-align: left;
+}
+.middle>div:nth-child(2)>img{
+    width: 30%;
+
+}
+.middle>div:nth-child(2)>p{
+    color: gray;
+    font-size: 20px;
+}
+.middle2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.middle2 h1{
+    font-family: cursive;
+}
+.middle2>div>div>button{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#region{
+    margin-right: 0px;
+    padding: 10px;
+}
+#number{
+    margin: auto 0px;
+    padding: 10px;
+}
+.middle2Img>img{
+    margin-top: 30px;
+  width: 30%;
+}
+.middle2>div:nth-child(2){
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.middle2>div:nth-child(2)>img{
+    width: 40%;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 200, 200);
+}
+footer>div{
+    width: 90%;
+    margin: auto;
+}
+.row1{
+   border-bottom: 1px solid rgb(206, 200, 200); ;
+}
+.row1>ul{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    gap: 20px;
+}
+.row2>ul>li{
+    padding-bottom: 15px;
+}
+.row2>ul{
+    display: grid;
+    grid-template-columns:repeat(11,1fr);
+}
+.row3>ul{
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+    gap: 20px;
+}
+.row3>a{
+  margin: 0px 5px;
+}
+.row4>ul{
+  display: grid;
+  grid-template-columns: repeat(11,auto);
+}
+
+
+
+
+
