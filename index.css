@@ -27,57 +27,47 @@ a{
     font-family:cursive;
 }
 .upper{
+    background-image: url(https://res.cloudinary.com/urbanclap/image/upload/q_40,f_auto/categories/category_v2/category_19be5040.jpeg);
+    background-position: left;
+    background-size: 45%;
+    background-repeat: no-repeat;
     display: flex;
     padding-top: 50px;
+    justify-content: end;
 }
 .upper img{
     width: 50%;
 }
 .upper>div{
     width: 83%;
+    background-image: linear-gradient(to right,transparent,black 40%);
     display: inline-block;
     position: relative;
-    background-color: black;
     color: aliceblue;
    padding: 100px 20px;
+   display: flex;
+   justify-content: end;  
 }
-.upper>div>p{
+.upper>div>div{
+    width: auto;
+    margin-right: 50px;
+}
+.upper>div>div>p{
     color: grey;
 }
-.upper>div>p:nth-child(1){
+.upper>div>div>p:nth-child(1){
     letter-spacing: 2px;
 }
 .upper>div>p:nth-child(1){
     font-size: large;
 }
-.upper>div>div{
+.upper>div>div>div{
     background-color: aliceblue;
     color: black;
     width: 40%;
     border-radius: 5px;
     padding: 40px;
 }
-/*experiment*/
-
-/*  .upper>div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 1000%;
-    color: aliceblue;
-   padding-left: 50px;
-   background-color: black;
-   background-image: linear-gradient( to right ,transparent,black 40%); 
-.upper p{
-    color: burlywood;
-}
-.cityenter{
-    background-color: aliceblue;
-    color: black;
-    width: 30%;
-    padding: 10px;
-} */
 .middle{
     display: flex;
     
@@ -201,7 +191,16 @@ footer>div{
   display: grid;
   grid-template-columns: repeat(11,auto);
 }
-
+.last_row{
+    display: flex;
+    justify-content: space-around;
+}
+.last_row>img:nth-child(1){
+    width: 15%;
+}
+.last_row>img{
+    width: 15%;
+}
 
 
 
