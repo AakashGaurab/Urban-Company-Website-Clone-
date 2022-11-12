@@ -242,3 +242,61 @@ footer>div{
 .last_row>img{
     width: 15%;
 }
+
+
+
+
+#region{
+    padding: 15px;
+}
+#number{
+    padding: 15px;
+}
+.element_add{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 15px;
+}
+ #sign{
+    border: 0px;
+    background-color:transparent;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 15px;
+ }   
+.signin{
+    
+    width: 360px;
+    height: 100vh;
+    background-color: aliceblue;
+    position: absolute;
+    z-index:1;
+    right: 0;
+    display: none;
+    padding: 15px;
+    flex-direction: column;
+}
+.login_input{
+    padding: 20px;
+}
+.submit{
+    color: aliceblue;
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+#OTP{
+    padding: 15px;
+}
+.login{
+    color: aliceblue;
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
