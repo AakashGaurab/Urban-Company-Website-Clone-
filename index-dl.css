@@ -4,9 +4,8 @@ body{
 
 .top{
     background-image:url(https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg);
-    background-size: 100%;
+    background-size: 120%;
     background-repeat: no-repeat;
-    
 }
 .navbar{
     margin: 0px auto;
@@ -56,11 +55,31 @@ h1{
     font-family: cursive;
     margin: 8%;
 }
+.top_last{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    border-radius: 3px;
+    padding: 20px;
+}
+.top_last>div:hover{
+   cursor: pointer;
+}
+.top_last>div>img{
+    width: 50%;
+}
+.top_last>div>p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .typeofWork{
     width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 .typeofWork>div{
     margin-bottom: 20%;
@@ -77,6 +96,7 @@ h1{
 .ads>div>img:hover{
     width: 95%;
     transition: 0.5s;
+    cursor: pointer;
 }
 .category{
     width: 90%;
@@ -93,6 +113,7 @@ h1{
    width: 90%;
     transition: 0.5s;
     height: auto;
+    cursor: pointer;
 }
 .text>h1{
     color:rgb(61, 60, 60);
@@ -136,6 +157,7 @@ margin: auto;
 .saloon>div>img:hover{
  width: 95%;
  transition: 0.3s;
+ cursor: pointer;
 }
 .pest{
     width: 90%;
@@ -152,6 +174,7 @@ margin: auto;
 .pest>div>img:hover{
     width: 100%;
     transition: 0.3s;
+    cursor: pointer;
 }
 .luxury_txt>h1{
     margin-bottom: auto;
@@ -176,6 +199,7 @@ margin: auto;
 .luxury>div>img:hover{
     width: 100%;
     transition: 0.3s;
+    cursor: pointer;
 }
 .homerep{
     width: 90%;
@@ -193,6 +217,7 @@ margin: auto;
 .homerep>div>img:hover{
     width: 100%;
     transition: 0.3s;
+    cursor: pointer;
 }
 footer{
     background-color: black;
